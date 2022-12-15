@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:keepScreenOn="true">
+
+
+
+
+    <com.arca.equipfix.gambachanneltv.ui.local_components.GambaExoPlayer android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#44FF0000"
+        android:orientation="horizontal"
+        android:layout_gravity="top"
+        android:id="@+id/programInfoLayout"
+        android:visibility="gone"
+        >
+        <TextView android:id="@+id/programTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textSize="@dimen/text_32_sp"
+            android:textStyle="bold"
+            android:text="Película"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/programStartTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_20_sp"
+                android:textStyle="bold"
+                android:text="16:00"/>
+            <TextView
+                android:id="@+id/programEndTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_20_sp"
+                android:textStyle="bold"
+                android:text="16:30"/>
+        </LinearLayout>
+        <TextView android:id="@+id/programDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textSize="@dimen/text_20_sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/player_episode_information_height"
+        android:background="#44FF0000"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:id="@+id/channelInfoLayout"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:id="@+id/channelLogo"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gamba_logo"/>
+
+        <TextView android:id="@+id/channelNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textSize="@dimen/text_32_sp"
+            android:textStyle="bold"
+            android:text="NOTICIAS 22"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/channelsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</FrameLayout>

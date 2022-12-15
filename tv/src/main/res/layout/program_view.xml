@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/programTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_16_sp"
+        android:text="Película"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/scheduledTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gambaRed"
+        android:textSize="@dimen/text_16_sp"
+        android:visibility="gone"
+        android:text="@string/reminder"
+        />
+
+
+
+</merge>

@@ -1,0 +1,268 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Gamba Channel TV</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="movie">Movie</string>
+    <string name="should_start">shouldStart</string>
+
+    <!-- Error messages -->
+    <string name="video_error_media_load_timeout">Media loading timed out</string>
+    <string name="video_error_server_inaccessible">Media server was not reachable</string>
+    <string name="video_error_unknown_error">Failed to load video</string>
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="title_activity_main_menu" translatable="false">MainMenuActivity</string>
+
+    <string name="downloads">Downloads</string>
+    <string name="movies">MOVIES</string>
+    <string name="series">TV SHOWS</string>
+    <string name="live_stream">LIVE STREAM</string>
+    <string name="music">MUSIC</string>
+    <string name="adults_1">ADULTS</string>
+    <string name="actors">CONTENT BY ACTOR</string>
+    <string name="link">LINK DEVICE</string>
+    <string name="kids">KIDS ZONE</string>
+    <string name="continuous">CONTINUOUS</string>
+    <string name="sports">SPORTS ZONE</string>
+
+    <string name="configuration">SETTINGS</string>
+    <string name="profiles">PROFILES</string>
+    <string name="radio">RADIO</string>
+    <string name="add_new_profile">ADD PROFILE</string>
+
+
+    <string name="top_movies">TOP MOVIES</string>
+    <string name="title_activity_direct_content" translatable="false">DirectContentActivity</string>
+
+    <string name="recently_added">RECENTLY ADDED</string>
+    <string name="new_releases">NEW RELEASES</string>
+    <string name="top_elements">TOP ELEMENTS</string>
+    <string name="new_chapters">NEW CHAPTERS</string>
+    <string name="recent_string">RECENTLY ADDED</string>
+    <string name="viewed">VIEWED</string>
+    <string name="favorites">FAVORITES</string>
+    <string name="live_channels">LIVE CHANNELS</string>
+    <string name="title_activity_start" translatable="false">StartActivity</string>
+    <string name="connecting_to_server">Connecting to server...</string>
+    <string name="press_ok_to_retry">PRESS OK TO RETRY</string>
+
+    <string name="resolving_status">Server responded...Oh yeah</string>
+    <string name="server_connection_error">Not able to connect to server...</string>
+    <string name="no_network_available">No network available, please check your connection settings...</string>
+    <string name="activate_your_service">Activate your service</string>
+    <string name="your_registration_code">Your Registration Code</string>
+    <string name="registed_to">Client Name</string>
+    <string name="title_activity_movie_details" translatable="false">MovieDetailsActivity</string>
+    <string name="minutes_abr">%d Mins.</string>
+    <string name="related">RELATED</string>
+    <string name="details">DETAILS</string>
+    <string name="trailer">TRAILER</string>
+    <string name="available_in">AVAILABLE IN: %s</string>
+    <string name="movie_details">MOVIE DETAILS</string>
+    <string name="cover">COVER</string>
+    <string name="separator">-</string>
+    <string name="director">Director:</string>
+    <string name="stars">Actors:</string>
+    <string name="play">PLAY</string>
+    <string name="restart">RESTART</string>
+    <string name="continue_playing">CONTINUE</string>
+    <string name="save">SAVE</string>
+    <string name="rating">USERS\' RATING</string>
+
+    <string name="add_favorite">ADD FAV</string>
+    <string name="remove_favorite">REMOVE FAV</string>
+    <string name="year">Year</string>
+    <string name="cant_create_session">We were not able to start session, please try again</string>
+    <string name="creating_session">Creating Session Information. Please hold</string>
+    <string name="cant_store_session">We were not able to store session information on your device. Please try again later.</string>
+    <string name="all_set">All set!... Starting App</string>
+    <string name="no_related_movies">NO RELATED MOVIES FOUND.</string>
+    <string name="loading_data">LOADING DATA...</string>
+
+    <string name="select_the_audio">Select the Audio</string>
+    <string name="select_the_subtitles">Select the Subtitles</string>
+    <string name="language_selection">LANGUAGE SELECTION</string>
+    <string name="ok" translatable="false">OK</string>
+
+    <string name="selection_disabled">Disabled</string>
+
+    <string name="selection_default">Default</string>
+    <string name="enable_random_adaptation" translatable="false">Enable random adaptation</string>
+    <string name="retry">Retry</string>
+    <string name="storage_permission_denied">Permission to access storage was denied</string>
+    <string name="unexpected_intent_action" translatable="false">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
+    <string name="video" translatable="false">Video</string>
+
+    <string name="audio" translatable="false">Audio</string>
+
+    <string name="subtitles">Subtitles</string>
+    <string name="enable_subtitles">Enable Subtitles</string>
+    <string name="subtitles_languages">Subtitle Language</string>
+    <string name="subtitles_languages_available">Languages Available</string>
+    <string name="video_quality">Video Quality:</string>
+    <string name="video_quality_default">Default Video Quality:</string>
+
+
+    <string name="error_no_decoder" translatable="false">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_no_secure_decoder" translatable="false">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_querying_decoders" translatable="false">Unable to query device decoders</string>
+
+    <string name="error_instantiating_decoder" translatable="false">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+
+    <string name="error_unsupported_video" translatable="false">Media includes video tracks, but none are playable by this device</string>
+
+    <string name="error_unsupported_audio" translatable="false">Media includes audio tracks, but none are playable by this device</string>
+    <string name="content_not_available">Content is not available</string>
+    <string name="recent_added_content">Recent Added Content</string>
+
+
+    <string name="group_categories">Group by Genre</string>
+    <string name="group_actors">Group by Actor</string>
+    <string name="group_year">Group by Year</string>
+    <string name="group_countries">Group by Country</string>
+
+    <string name="title_activity_category_content" translatable="false">CategoryContentActivity</string>
+    <string name="title_activity_content_category">Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search" translatable="false">SearchActivity</string>
+    <string name="items"> Items</string>
+    <string name="movies_by_genre">MOVIES BY GENRE</string>
+    <string name="movies_by_actor">MOVIES BY ACTOR</string>
+    <string name="movies_by_year">MOVIES BY YEAR</string>
+    <string name="series_by_genre">TV SHOWS BY GENRE</string>
+    <string name="series_by_year">TV SHOWS BY YEAR</string>
+    <string name="duration_format">%d Hours %d Minutes</string>
+    <string name="episode_duration_format">%d Minutes</string>
+    <string name="episode_director">Director: %s</string>
+    <string name="episode_qualities">Available in : %s</string>
+    <string name="play_full_serie">Press Play to Start Playing the Full Serie</string>
+    <string name="play_full_season">Press Play to Start Playing the Full Season</string>
+    <string name="continue_playing_serie">Press Play to Continue Playing the Serie where you Left</string>
+    <string name="continue_playing_season">Press Play to Continue Playing the Season where you Left</string>
+
+
+    <string name="restricted_content">This content has age restrictions. Pleas enter your access code.</string>
+    <string name="send_code">Send code</string>
+    <string name="invalid_access_code_title">Invalid Acccess Code.</string>
+    <string name="invalid_access_code">The Access Code you entered is invalid, please try again</string>
+    <string name="title_activity_rate" translatable="false">RateActivity</string>
+
+    <string name="please_rate_content">Please Rate Item</string>
+    <string name="do_let_us_know_your_thoughts">Your review can help others</string>
+    <string name="skip">Skip</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+    <string name="configure_your_preference">Configure your preferences</string>
+    <string name="app_language">App Language</string>
+    <string name="preferred_audio">Peferred Audio</string>
+    <string name="select_default_audio">Select Default Audio Language</string>
+    <string name="select_default_app_language">Select Default App Language</string>
+
+
+    <string name="spanish" translatable="false">Español</string>
+    <string name="english" translatable="false">English</string>
+    <string name="no_info">No Information</string>
+    <string name="no_info_description">No Information for selected program</string>
+    <string name="hh_mm" translatable="false">HH:mm</string>
+    <string name="ee_hh_mm" translatable="false">EE HH:mm</string>
+    <string name="press_ok_to_preview">Press OK to Preview</string>
+    <string name="press_ok_to_play">Press OK to Play</string>
+    <string name="press_ok_to_reminder">Press OK to Add Reminder</string>
+    <string name="press_ok_to_remove_reminder">Press OK to Remove Reminder</string>
+    <string name="no_actions_available">No actions available</string>
+
+
+    <string name="reminder">Reminder Active</string>
+    <string name="reminder_added">Reminder Added</string>
+    <string name="reminder_deleted">Reminder Removed</string>
+    <string name="dont_miss_it">Don\'t Miss It</string>
+    <string name="program_will_start_soon">The Program %s will start in %d Minutes on Channel %s</string>
+
+    <string name="membership_expiration">YOUR MEMBERSHIP EXPIRES ON </string>
+    <string name="serial_number_format">YOUR SERIAL NUMBER IS </string>
+    <string name="linking_code_format">YOUR LINKING CODE IS </string>
+    <string name="expiration_date_format" translatable="false">MM/dd/yyyy</string>
+
+
+    <string name="episode_count">%d Episodes</string>
+    <string name="season_count">%d Seasons</string>
+    <string name="no_rated">No rated yet</string>
+    <string name="episode_selected">EPISODE SELECTED</string>
+    <string name="enable_continuous_play">Do you want to enable continuous play?</string>
+    <string name="yes">Yes</string>
+    <string name="no" translatable="false">No</string>
+    <string name="no_more_episodes">No more episodes to play</string>
+    <string name="next_episode_seconds">Next Episode Will Start in %d Seconds</string>
+    <string name="confirm">Confirm</string>
+    <string name="want_to_exit">Do you really want to exit?</string>
+    <string name="select_category">Select Category</string>
+    <string name="categories">Categories</string>
+    <string name="your_device_is_registered_with_name">Your Device is Registered with Name:</string>
+    <string name="membership_expired">Your Membership is Expired</string>
+    <string name="channel_not_available">Selected Channel is not available. You can change channel using UP and DOWN arrows or BACK to return to previous screen.</string>
+    <string name="try_number">We are trying to reconnect to source. Try %d of 7</string>
+    <string name="buy_a_membership">To view full items you need to buy a membership. You can either, find a dealer or go to https://gambachannel.com and buy credits yourself.</string>
+    <string name="demo_ended">That\'s it</string>
+    <string name="select_profile">Who will be watching? Please select a Profile</string>
+    <string name="password_protected">Password Protected Profile</string>
+    <string name="this_profile_is_protected">This Profile is Password Protected. Please enter the access code</string>
+    <string name="current_profiles">CURRENT PROFILES</string>
+    <string name="profile_details">PROFILE DETAILS</string>
+    <string name="profile_name">PROFILE NAME</string>
+    <string name="enable_adults">ENABLE ADULTS</string>
+    <string name="current_password">CURRENT PASSWORD</string>
+    <string name="adults_password">ADULTS PASSWORD</string>
+    <string name="password_protect">PASSWORD PROTECTED</string>
+    <string name="profile_password">PROFILE PASSWORD (NUMBERS 0..9)</string>
+    <string name="change_profile_password">PROFILE PASSWORD (LEFT EMPTY TO LEAVE UNCHANGED)</string>
+    <string name="delete">DELETE</string>
+    <string name="change_adults_password">CHANGE ADULTS PASSWORD</string>
+    <string name="link_device">LINK CEL DEVICE</string>
+    <string name="enter_profile_name">Please Enter the Profile Name</string>
+    <string name="wanto_to_enable_adults">Do you want to enable adult content for this profile?</string>
+    <string name="want_to_protect_profile">Do you want to protect this profile with a password?</string>
+    <string name="enter_profile_password">Please Enter the Profile Password</string>
+    <string name="adults_cannot_be_enabled_later">For security reasons, adults cannot be enabled later on THIS PROFILE. Please confirm you want to disable adults for this profile. Do you want to DISABLE adults?</string>
+    <string name="confirmation">CONFIRMATION</string>
+    <string name="name_empty">NAME IS EMPTY</string>
+    <string name="profile_name_not_empty">Profile name cannot be empty</string>
+    <string name="error_updating_profile">There was a problem trying to update the profile. Please try later</string>
+    <string name="profile_update_error">PROFILE NOT UPDATED</string>
+    <string name="require_access_code">This action requires Access Code</string>
+    <string name="profile_updated">PROFILE UPDATED</string>
+    <string name="profile_saved">The changes was saved, you will see changes on your next login.</string>
+    <string name="new_adults_password">Please Enter the new Access Code (Up to 6 characters)</string>
+    <string name="access_code_updated">ACCESS CODE UPDATED</string>
+    <string name="new_access_code_ready">Your access code was updated successfully</string>
+    <string name="error_updating_access_code">There was a problem trying to update your access code. Please try later</string>
+    <string name="access_code_update_error">ACCESS CODE NOT UPDATED</string>
+    <string name="wrong_password_format">WRONG PASSWORD FORMAT</string>
+    <string name="password_only_numbers">Password can only be numbers 0..9, please try again</string>
+    <string name="didnt_see_that_coming">Ups! We didn\'t see that coming</string>
+    <string name="unexpected_state">We entered in a unexpected state. Please try to open the EPG again.</string>
+    <string name="downloading_new_version">Downloading new version of Gamba</string>
+    <string name="uninstall_old_version">Uninstall Old Version</string>
+    <string name="checking_last_version">Checking last version...</string>
+    <string name="downloading_latest_version">Downloading Latest Version...</string>
+    <string name="install_last_version">Please install the latest version...</string>
+    <string name="group_abc">Group by ABC</string>
+    <string name="tv_shows_by_abc">TV SHOWS BY ABC</string>
+    <string name="downloading_epg">Downloading EPG</string>
+    <string name="one_device_linked">You have one device linked already.</string>
+    <string name="want_to_delete_linked">You have one device linked. DO YOU WANT TO DELETE IT?</string>
+    <string name="your_linking_code">Your Linking Code</string>
+    <string name="linking_code_format_message">Please Enter %s as your linking code in your cell phone</string>
+    <string name="cannot_delete_linked">We were not able to delete your linked device. Please try again</string>
+    <string name="error_deleting">Error Deleting</string>
+    <string name="linked_deleted">Your linked device is now delete. You can link a new one now if you want to</string>
+    <string name="delete_success">Delete Success</string>
+    <string name="confirm_new_password">Confirm your new password</string>
+    <string name="password_doesnt_match">Passwords doesn\'t match</string>
+    <string name="new_password_too_long">New password is too long</string>
+    <string name="track_selection_title">Select tracks</string>
+
+</resources>

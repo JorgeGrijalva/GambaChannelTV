@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arca.equipfix.gambachanneltv.ui.activities.SplashActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_centerInParent="true"
+            android:src="@drawable/gamba_logo" />
+        <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:spb_sections_count="4"
+            app:spb_color="#FF0000"
+            app:spb_speed="0.7"
+            app:spb_stroke_width="4dp"
+            app:spb_stroke_separator_length="8dp"
+            app:spb_reversed="false"
+            app:spb_mirror_mode="false"
+            app:spb_progressiveStart_activated="true"
+            app:spb_progressiveStart_speed="1.5"
+            app:spb_progressiveStop_speed="3.4"
+
+            android:indeterminate="true"/>
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/lb_tv_white"
+            android:text="@string/connecting_to_server"
+            android:layout_gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+            android:id="@+id/retryText"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:textColor="@color/lb_tv_white"
+            android:text="@string/press_ok_to_retry"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal|center_vertical"
+            />
+    </LinearLayout>
+
+</LinearLayout>

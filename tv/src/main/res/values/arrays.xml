@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="progress_colors">
+
+    </array>
+
+    <array name="pref_languages_availables_entries_values">
+        <item>spa</item>
+        <item>eng</item>
+    </array>
+
+    <array name="pref_app_languages_availables_entries_values">
+        <item>ES</item>
+        <item>EN</item>
+    </array>
+
+    <array name="pref_languages_available_entries">
+        <item>@string/spanish</item>
+        <item>@string/english</item>
+    </array>
+
+    <array name="pref_video_res_entries">
+        <item>SD</item>
+        <item>HD</item>
+        <item>FHD</item>
+    </array>
+
+
+    <array name="pref_video_res_entries_values">
+        <item>sd</item>
+        <item>hd</item>
+        <item>fhd</item>
+    </array>
+
+    <array name="pref_parent_control_entries">
+        <item>Everyone</item>
+        <item>Low maturity</item>
+        <item>Medium maturity</item>
+        <item>High maturity</item>
+    </array>
+    <array name="pref_parent_control_entries_values">
+        <item>everyone</item>
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
+    </array>
+    <array name="pref_parent_control_entries_summaries">
+        <item>This description becomes visible only on focus.</item>
+        <item>This description becomes visible only on focus.</item>
+        <item>This description becomes visible only on focus.</item>
+        <item>This description becomes visible only on focus.</item>
+    </array>
+    <array name="pref_wifi_networks">
+        <item>Wi-Fi network 1</item>
+        <item>Wi-Fi network 2</item>
+        <item>Wi-Fi network 3</item>
+        <item>Wi-Fi network 4</item>
+        <item>Wi-Fi network 5</item>
+        <item>Wi-Fi network 6</item>
+    </array>
+</resources>

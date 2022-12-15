@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <TextView
+        android:text="Write your comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputDialogTitleTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="24dp"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text=""
+        android:id="@+id/inputDialogContentEditText"
+        android:layout_below="@+id/inputDialogTitleTextView"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/oil"
+        android:layout_marginLeft="10dp"
+        android:textSize="28sp"
+        android:imeOptions="actionDone"
+        android:layout_marginRight="10dp"
+
+        />
+
+    <View
+        android:id="@+id/inputDialogVerticalLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/aluminum"
+        android:layout_below="@+id/inputDialogContentEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:text="Post"
+        android:layout_width="match_parent"
+        android:id="@+id/inputDialogLeftButton"
+        android:layout_weight="1"
+        android:background="@null"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_height="68dp"
+        android:layout_below="@+id/inputDialogVerticalLine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<!-- fragment_screen_slide_page.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="330dp"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="260dp"
+        android:id="@+id/coverImageView"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/configuration_off1"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:text="Películas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleTextView"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="15dp"
+
+        android:textColor="@android:color/darker_gray"
+        android:fontFamily="sans-serif-condensed"
+
+        android:textSize="18sp" />
+
+</LinearLayout>
+

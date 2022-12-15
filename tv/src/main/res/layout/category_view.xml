@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_24_sp"
+        android:layout_marginStart="65dp"
+        android:maxLines="2"
+        />
+
+</LinearLayout>

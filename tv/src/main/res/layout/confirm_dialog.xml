@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="24dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Lorem ipsum dolor sit amet, "
+        android:id="@+id/contentTextView"
+        android:layout_below="@+id/questionTextView"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/verticalLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/aluminum"
+        android:layout_below="@+id/contentTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="20dp" />
+    <View
+        android:layout_width="1dp"
+        android:background="@color/aluminum"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/verticalLine"
+        android:layout_height="68dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verticalLine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/leftButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="68dp"
+            fancy:mfb_textFont="robotothin.ttf"
+            fancy:mfb_focusColor="@color/selectedItem"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:textSize="20sp"
+            />
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/rightButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="68dp"
+            fancy:mfb_textFont="robotothin.ttf"
+            fancy:mfb_focusColor="@color/selectedItem"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

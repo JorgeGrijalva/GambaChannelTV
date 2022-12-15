@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.arca.equipfix.gambachanneltv.ui.activities.ProfilesActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/current_profiles"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/text_24_sp"
+        android:layout_marginTop="@dimen/main_menu_recent_top_margin"/>
+    <ListView
+        android:id="@+id/profliesListBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/selectedItem"
+        android:dividerHeight="2dp"
+        android:listSelector="@color/selectedItem"
+        android:background="@drawable/listview_border"
+        android:choiceMode="singleChoice"/>
+
+</LinearLayout>

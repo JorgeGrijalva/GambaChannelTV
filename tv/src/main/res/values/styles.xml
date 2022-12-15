@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.Leanback"></style>
+    
+    <style name="GambaAppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+
+    <!-- TextCardView. used in cards example -->
+    <style name="TextCardStyle" parent="Widget.Leanback.BaseCardViewStyle">
+        <item name="cardBackground">@null</item>
+    </style>
+
+    <!-- Game card styles with custom Badge icon. Used in cards example. -->
+    <style name="GameCardContentStyle" parent="Widget.Leanback.ImageCardView.ContentStyle">
+        <item name="android:textColor">#80c349</item>
+    </style>
+
+
+
+    <!-- A default card style. Used in cards example. -->
+    <style name="EpisodesCardImageStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">@dimen/movie_image_card_width</item>
+        <item name="android:layout_height">@dimen/movie_image_card_height</item>
+    </style>
+
+    <style name="GameCardBadgeStyle" parent="Widget.Leanback.ImageCardView.BadgeStyle">
+        <item name="android:src">@drawable/viewed2</item>
+    </style>
+
+    <style name="GameCardStyle" parent="DefaultCardStyle">
+        <item name="lbImageCardViewType">Title|Content|IconOnRight</item>
+    </style>
+
+    <!-- Theme corresponding to the GameCardStyle -->
+    <style name="GameCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewStyle">@style/GameCardStyle</item>
+        <item name="imageCardViewContentStyle">@style/GameCardContentStyle</item>
+        <item name="imageCardViewBadgeStyle">@style/GameCardBadgeStyle</item>
+        <item name="imageCardViewImageStyle">@style/EpisodesCardImageStyle</item>
+    </style>
+
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/gambaRed</item>
+    </style>
+    <style name="DefaultCardStyle" parent="Widget.Leanback.ImageCardViewStyle">
+        <item name="cardBackground">@null</item>
+    </style>
+
+    <style name="DefaultCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewStyle">@style/DefaultCardStyle</item>
+        <item name="imageCardViewImageStyle">@style/DefaultCardImageStyle</item>
+    </style>
+
+    <style name="MenuCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewStyle">@style/DefaultCardStyle</item>
+        <item name="imageCardViewImageStyle">@style/MenuCardImageStyle</item>
+    </style>
+
+    <!-- A default card style. Used in cards example. -->
+    <style name="MenuCardImageStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">@dimen/menu_image_card_width</item>
+        <item name="android:layout_height">@dimen/menu_image_card_height</item>
+    </style>
+
+    <!-- A default card style. Used in cards example. -->
+    <style name="DefaultCardImageStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">@dimen/default_image_card_width</item>
+        <item name="android:layout_height">@dimen/default_image_card_height</item>
+    </style>
+
+    <!-- Squared single line card with colored footer style. Used in cards example. -->
+    <style name="SingleLineCardTitleStyle" parent="Widget.Leanback.ImageCardView.TitleStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SingleLineCardInfoAreaStyle" parent="Widget.Leanback.ImageCardView.InfoAreaStyle">
+        <item name="android:layout_width">@dimen/square_image_card_width</item>
+        <item name="layout_viewType">main</item>
+    </style>
+
+    <style name="SingleLineCardImageStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">@dimen/square_image_card_width</item>
+        <item name="android:layout_height">@dimen/square_image_card_height</item>
+    </style>
+
+    <style name="SingleLineCardStyle" parent="DefaultCardStyle">
+        <item name="lbImageCardViewType">Title</item>
+    </style>
+
+    <!-- Theme corresponding to the SingleLineCardStyle -->
+    <style name="SingleLineCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewStyle">@style/SingleLineCardStyle</item>
+        <item name="imageCardViewTitleStyle">@style/SingleLineCardTitleStyle</item>
+        <item name="imageCardViewImageStyle">@style/SingleLineCardImageStyle</item>
+        <item name="imageCardViewInfoAreaStyle">@style/SingleLineCardInfoAreaStyle</item>
+    </style>
+
+
+    <style name="MovieCardTitleOnlyStyle" parent="Widget.Leanback.ImageCardViewStyle">
+        <item name="lbImageCardViewType">Title</item>
+        <item name="cardBackground">@null</item>
+    </style>
+
+
+    <!-- Various movie card styles. Used in cards example. -->
+    <style name="MovieCardBadgeStyle" parent="Widget.Leanback.ImageCardView.BadgeStyle">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="Widget.Leanback.ImageCardView.ContentStyleCustom">
+        <item name="android:id">@id/content_text</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_below">@+id/title_text</item>
+        <item name="android:layout_toStartOf">@+id/extra_badge</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.ImageCardView.Content</item>
+    </style>
+
+    <style name="MovieCardContentStyle" parent="Widget.Leanback.ImageCardView.ContentStyleCustom">
+        <item name="android:gravity">right</item>
+
+
+    </style>
+
+    <style name="MovieCardTitleTwoLineStyle" parent="Widget.Leanback.ImageCardView.TitleStyle">
+        <item name="android:maxLines">2</item>
+        <item name="android:minLines">2</item>
+    </style>
+
+    <style name="MovieCardImageStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">@dimen/movie_image_card_width</item>
+        <item name="android:layout_height">@dimen/movie_image_card_height</item>
+    </style>
+
+    <style name="MovieCardCompleteStyle" parent="MovieCardTitleOnlyStyle">
+        <item name="lbImageCardViewType">Title|Content|IconOnLeft</item>
+    </style>
+
+    <!-- Theme corresponding to the MovieCardCompleteStyle -->
+    <style name="MovieCardCompleteTheme" parent="Theme.Leanback">
+        <item name="imageCardViewStyle">@style/MovieCardCompleteStyle</item>
+        <item name="imageCardViewImageStyle">@style/MovieCardImageStyle</item>
+        <item name="imageCardViewTitleStyle">@style/MovieCardTitleTwoLineStyle</item>
+        <item name="imageCardViewBadgeStyle">@style/MovieCardBadgeStyle</item>
+        <item name="imageCardViewContentStyle">@style/MovieCardContentStyle</item>
+    </style>
+
+
+    <style name="MovieCardContentGoneStyle" parent="Widget.Leanback.ImageCardView.ContentStyle">
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <!-- Theme corresponding to the MovieCardBasicStyle -->
+    <style name="MovieCardBasicTheme" parent="MovieCardCompleteTheme">
+        <item name="imageCardViewContentStyle">@style/MovieCardContentGoneStyle</item>
+    </style>
+
+    <style name="DialogTheme">
+        <item name="android:windowEnterAnimation">@anim/side_in_left</item>
+        <item name="android:windowExitAnimation">@anim/side_out_right</item>
+    </style>
+
+    <style name="Theme.LeanbackPreferences" parent="Theme.Leanback">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Leanback</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorPrimary">@color/gambaRed</item>
+    </style>
+
+    <style name="MyCustomRowHeaderStyle" parent="Widget.Leanback.Row.Header">
+        <item name="android:textColor">@color/gambaRed</item>
+    </style>
+
+    <style name="MyCustomBrowseStyle" parent="Theme.Leanback.Browse">
+        <item name="rowHeaderStyle">@style/MyCustomRowHeaderStyle</item>
+    </style>
+
+    <style name="AppTheme.Leanback.Browse.Row" parent="@style/Theme.Leanback.Browse">
+        <item name="rowHeaderStyle">@style/AppTheme.Leanback.Row</item>
+<!--        <item name="browseTitleViewLayout">@layout/titleview</item> -->
+    </style>
+
+    <style name="AppTheme.Leanback.Browse.Header" parent="@style/AppTheme.Leanback.Browse.Row">
+        <item name="rowHeaderStyle">@style/AppTheme.Leanback.Header</item>
+    </style>
+
+    <style name="AppTheme.Leanback.Row" parent="Widget.Leanback.Row.Header">
+        <item name="android:textColor">@color/gambaRed</item>
+    </style>
+
+    <style name="AppTheme.Leanback.Header" parent="Widget.Leanback.Row.Header">
+        <item name="android:textColor">@color/gambaRed</item>
+    </style>
+
+    <style name="AppTheme.Leanback.CustomTitle" parent="Theme.Leanback.Browse">
+        <item name="browseTitleViewLayout">@layout/custom_title_view</item>
+        <item name="browseRowsMarginTop">60dp</item>
+    </style>
+
+    <style name="TrackSelectionDialogThemeOverlay" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="windowNoTitle">false</item>
+    </style>
+</resources>

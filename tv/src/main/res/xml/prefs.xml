@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:summary="Preferences."
+    android:title="@string/configure_your_preference">
+    <ListPreference
+        android:defaultValue="ES"
+        android:entries="@array/pref_languages_available_entries"
+        android:entryValues="@array/pref_app_languages_availables_entries_values"
+        android:key="PREF_KEY_DEFAULT_LANGUAGE"
+        android:dialogMessage="@string/app_language"
+        android:title="@string/select_default_app_language">
+    </ListPreference>
+    <ListPreference
+        android:defaultValue="ES"
+        android:entries="@array/pref_languages_available_entries"
+        android:entryValues="@array/pref_languages_availables_entries_values"
+        android:key="prefs_audio_language_key"
+        android:dialogMessage="@string/preferred_audio"
+        android:title="@string/select_default_audio">
+    </ListPreference>
+
+    <PreferenceScreen
+        android:key="prefs_subtitles_screen_key"
+        android:title="@string/subtitles">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:disableDependentsState="false"
+            android:key="prefs_subtitles_enabled"
+            android:summaryOff="Off"
+            android:summaryOn="On"
+            android:title="@string/enable_subtitles"></CheckBoxPreference>
+        <PreferenceCategory
+            android:dependency="prefs_subtitles_enabled"
+            android:key="prefs_subtitles_category"
+            android:title="@string/subtitles_languages">
+            <ListPreference
+                android:defaultValue="-1"
+                android:entries="@array/pref_languages_available_entries"
+                android:entryValues="@array/pref_languages_availables_entries_values"
+                android:title="@string/subtitles_languages_available"
+                android:key="prefs_subtitles_language_key">
+            </ListPreference>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <ListPreference
+        android:defaultValue="HD"
+        android:entries="@array/pref_video_res_entries"
+        android:entryValues="@array/pref_video_res_entries_values"
+        android:key="prefs_video_res_level_key"
+        android:dialogMessage="@string/video_quality"
+        android:title="@string/video_quality_default">
+    </ListPreference>
+
+
+
+</PreferenceScreen>

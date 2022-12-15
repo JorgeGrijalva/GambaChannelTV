@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/movie_details_padding"
+    android:background="@drawable/bg_epg"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:layout_marginTop="@dimen/movie_details_image_margin_top"
+        tools:context="com.arca.equipfix.gambachanneltv.ui.activities.MovieDetailsActivity">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/thumbnailImage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/cover"
+                android:scaleType="fitXY"
+                android:src="@drawable/movie" />
+
+            <ListView
+                android:id="@+id/actionsListBox"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:divider="@color/gambaRed"
+                android:dividerHeight="2dp"
+                android:listSelector="@color/gambaRed"
+                android:background="@drawable/listview_border"
+                android:choiceMode="singleChoice"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10sp"
+            android:layout_weight="5"
+
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/titleTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/gambaRed"
+
+                        android:textSize="@dimen/text_26_sp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/categoriesTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="@dimen/text_20_sp"
+                            android:maxLines="1"
+                            android:textColor="@color/colorBlack"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/text_20_sp"
+                            android:text="@string/separator"/>
+                        <TextView
+                            android:id="@+id/ratingTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="@dimen/text_20_sp"
+                            android:textColor="@color/colorBlack"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/seasonsTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_20_sp"
+                            android:textColor="@color/gambaRed"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/text_20_sp"
+                            android:text="@string/separator"/>
+                        <TextView
+                            android:id="@+id/episodeCountTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_20_sp"
+                            android:textColor="@color/colorBlack"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+                <com.rilixtech.materialfancybutton.MaterialFancyButton
+                    android:id="@+id/playButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fancy:mfb_textFont="robotothin.ttf"
+                    fancy:mfb_text="@string/play"
+                    fancy:mfb_focusColor="@color/selectedItem"
+                    fancy:mfb_icon="@string/cmdi_play"/>
+
+                <com.rilixtech.materialfancybutton.MaterialFancyButton
+                    android:id="@+id/continueButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fancy:mfb_textFont="robotothin.ttf"
+                    fancy:mfb_text="@string/continue_playing"
+                    android:layout_marginStart="5dp"
+                    fancy:mfb_focusColor="@color/selectedItem"
+                    fancy:mfb_icon="@string/cmdi_play_protected_content"/>
+
+                <com.rilixtech.materialfancybutton.MaterialFancyButton
+                    android:id="@+id/favoritesButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fancy:mfb_textFont="robotothin.ttf"
+                    fancy:mfb_text="@string/add_favorite"
+                    android:layout_marginStart="5dp"
+                    fancy:mfb_focusColor="@color/selectedItem"
+                    fancy:mfb_icon="@string/cmdi_heart"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/serieDetailsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="230dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="@dimen/text_24_sp"
+                    android:id="@+id/synopsisTextView"
+                    android:textColor="@color/colorBlack"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_20_sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="@string/stars"/>
+                    <TextView
+                        android:id="@+id/actorsTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:textSize="@dimen/text_20_sp"
+                        android:textColor="@color/colorBlack"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <androidx.leanback.widget.VerticalGridView
+                android:layout_marginTop="15dp"
+                android:id="@+id/cardsRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/movie_details_cards_height" />
+
+
+
+            <TextView
+                android:id="@+id/scrollViewStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_24_sp"
+                android:visibility="gone"
+                android:text="@string/loading_data"
+                />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"></View>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

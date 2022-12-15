@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arca.equipfix.gambachanneltv">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:name=".GambaChannelApp"
+        android:allowBackup="true"
+        android:icon="@drawable/gamba_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Leanback">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <activity android:name=".BrowseErrorActivity" />
+        <activity
+            android:name=".ui.activities.MainMenuActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".ui.activities.SplashActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.StartActivity"
+            android:label="@string/title_activity_start"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".ui.activities.MovieDetailsActivity" />
+        <activity android:name=".ui.activities.PlayerActivity" />
+        <activity
+            android:name=".ui.activities.ContentCategoryActivity"
+            android:label="@string/title_activity_content_category"  android:theme="@style/AppTheme.Leanback.Browse.Row"/>
+        <activity
+            android:name=".ui.activities.SearchActivity"
+            android:label="@string/title_activity_search" />
+        <activity
+            android:name=".ui.activities.RateActivity"
+            android:label="@string/title_activity_rate" />
+        <activity
+            android:name=".ui.activities.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/Theme.LeanbackPreferences" />
+        <activity
+            android:name=".ui.activities.EPGActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".ui.activities.LivePlayerActivity" android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".ui.activities.SerieDetailsActivity" />
+        <activity android:name=".ui.activities.EpisodesPlayerActivity" />
+        <activity android:name=".ui.activities.ProfilesActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<resources>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="selected_background">#ffaa3f</color>
+    <color name="default_background">#3d3d3d</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="gambaRed">#D20000</color>
+    <color name="gambaRedTransparent">#44D20000</color>
+    <color name="orangeIcons">#EE952D</color>
+    <color name="selectedItem">#f5c98c</color>
+    <color name="transparentWhite">#99DFDFDF</color>
+
+    <color name="green_50">#E8F5E9</color>
+    <color name="green_100">#C8E6C9</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_300">#81C784</color>
+    <color name="green_400">#66BB6A</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_600">#43A047</color>
+    <color name="green_700">#388E3C</color>
+    <color name="green_800">#2E7D32</color>
+    <color name="green_900">#1B5E20</color>
+    <color name="green_A100">#B9F6CA</color>
+    <color name="green_A200">#69F0AE</color>
+    <color name="green_A400">#00E676</color>
+    <color name="green_A700">#00C853</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black_bg_menus">#ee000000</color>
+
+    <color name="grayIconTint">#727272</color>
+    <color name="aluminum">#999999</color>
+    <color name="oil">#333333</color>
+    <color name="black">#000000</color>
+    <color name="aluminum_trans">#55999999</color>
+
+    <color name="colorTranslucentBlack">#0A000000</color>
+    <color name="colorTranslucentGray">#C8E5E5E5</color>
+    <color name="default_card_background_color">#263238</color>
+    <color name="default_card_footer_background_color">#37474F</color>
+    <color name="selected_card_footer_background_color">#F0F</color>
+
+
+</resources>

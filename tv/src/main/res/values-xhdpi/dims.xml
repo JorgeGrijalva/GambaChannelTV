@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_image_card_width">157dp</dimen>
+    <dimen name="default_image_card_height">112dp</dimen>
+
+    <dimen name="menu_image_card_width">100dp</dimen>
+    <dimen name="menu_image_card_height">100dp</dimen>
+
+
+    <dimen name="square_image_card_width">89dp</dimen>
+    <dimen name="square_image_card_height">89dp</dimen>
+
+    <dimen name="movie_image_card_width">126dp</dimen>
+    <dimen name="movie_image_card_height">180dp</dimen>
+
+    <dimen name="text_10_sp">6sp</dimen>
+    <dimen name="text_14_sp">8sp</dimen>
+    <dimen name="text_16_sp">10sp</dimen>
+    <dimen name="text_20_sp">14sp</dimen>
+    <dimen name="text_24_sp">16sp</dimen>
+    <dimen name="text_26_sp">18sp</dimen>
+    <dimen name="text_32_sp">24sp</dimen>
+
+    <dimen name="epg_title_row_text_size">22sp</dimen>
+    <dimen name="epg_channel_logo_height">55dp</dimen>
+    <dimen name="epg_channel_name_text_size">14dp</dimen>
+
+    <dimen name="action_item_height">45dp</dimen>
+    <dimen name="action_item_focused_height">80dp</dimen>
+    <dimen name="main_menu_gamba_logo_size">108dp</dimen>
+    <dimen name="main_menu_progress_size">180dp</dimen>
+    <dimen name="main_menu_recent_height">200dp</dimen>
+    <dimen name="main_menu_recent_top_margin">15dp</dimen>
+
+    <dimen name="action_item_padding_start">10dp</dimen>
+
+    <dimen name="movie_details_padding">10dp</dimen>
+    <dimen name="movie_details_image_margin_top">8dp</dimen>
+    <dimen name="movie_synopsis_max_height">150dp</dimen>
+    <dimen name="movie_synopsis_margin_top">5dp</dimen>
+    <dimen name="movie_details_cards_height">200dp</dimen>
+    <dimen name="main_menu_height">170dp</dimen>
+    <dimen name="main_sub_menu_height">60dp</dimen>
+
+
+    <dimen name="movie_details_cards_top_margin">8dp</dimen>
+
+    <dimen name="submenu_width">85dp</dimen>
+    <dimen name="submenu_height">40dp</dimen>
+    <dimen name="menu_left_margin">120dp</dimen>
+
+
+
+
+
+</resources>

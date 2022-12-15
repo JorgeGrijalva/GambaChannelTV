@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_image_card_width">224dp</dimen>
+    <dimen name="default_image_card_height">160dp</dimen>
+
+    <dimen name="menu_image_card_width">160dp</dimen>
+    <dimen name="menu_image_card_height">130dp</dimen>
+
+
+    <dimen name="square_image_card_width">128dp</dimen>
+    <dimen name="square_image_card_height">128dp</dimen>
+
+    <dimen name="movie_image_card_width">180dp</dimen>
+    <dimen name="movie_image_card_height">258dp</dimen>
+
+    <dimen name="text_10_sp">10sp</dimen>
+    <dimen name="text_14_sp">14sp</dimen>
+    <dimen name="text_16_sp">16sp</dimen>
+    <dimen name="text_20_sp">20sp</dimen>
+    <dimen name="text_24_sp">24sp</dimen>
+    <dimen name="text_26_sp">26sp</dimen>
+    <dimen name="text_32_sp">32sp</dimen>
+
+    <dimen name="epg_title_row_text_size">26sp</dimen>
+    <dimen name="epg_channel_logo_height">80dp</dimen>
+    <dimen name="epg_channel_name_text_size">16dp</dimen>
+
+    <dimen name="action_item_height">60dp</dimen>
+    <dimen name="action_item_focused_height">120dp</dimen>
+    <dimen name="action_item_padding_start">20dp</dimen>
+
+
+
+    <dimen name="main_menu_gamba_logo_size">128dp</dimen>
+    <dimen name="main_menu_progress_size">250dp</dimen>
+    <dimen name="main_menu_recent_height">320dp</dimen>
+    <dimen name="main_menu_recent_top_margin">40dp</dimen>
+    <dimen name="main_menu_height">220dp</dimen>
+    <dimen name="main_sub_menu_height">60dp</dimen>
+
+
+
+    <dimen name="movie_details_padding">10dp</dimen>
+    <dimen name="movie_details_image_margin_top">15dp</dimen>
+    <dimen name="movie_synopsis_max_height">215dp</dimen>
+    <dimen name="movie_synopsis_margin_top">10dp</dimen>
+    <dimen name="movie_details_cards_height">300dp</dimen>
+    <dimen name="movie_details_cards_top_margin">15dp</dimen>
+    <dimen name="player_episode_information_height">85dp</dimen>
+
+    <dimen name="submenu_width">350dp</dimen>
+    <dimen name="submenu_height">45dp</dimen>
+    <dimen name="menu_left_margin">60dp</dimen>
+
+    <dimen name="lb_basic_card_title_text_size">@dimen/text_20_sp</dimen>
+
+
+</resources>
